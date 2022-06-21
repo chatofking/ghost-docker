@@ -1,0 +1,9 @@
+instead of backing up images:
+run a private container registry
+use the registry to pull through the images
+instead of backing up docker-compose file:
+keep the docker-compose.yml and all files required by it in git
+instead of backing up a while container
+backup all volumes of containers (for the sake of consistency with stopped container)
+you can use muesli . for it
+sync the backups to a target environment
